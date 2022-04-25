@@ -5,20 +5,48 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "make:component": "vue-cli-service make:component",
+    "make:directive": "vue-cli-service make:directive",
+    "make:layout": "vue-cli-service make:layout",
+    "make:mixin": "vue-cli-service make:mixin",
+    "make:view": "vue-cli-service make:view"
   },
   "dependencies": {
+    "@mdi/font": "5.9.55",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "inquirer": "^8.2.2",
+    "roboto-fontface": "*",
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@vitejs/plugin-vue": "^2.0.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.2.33",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.0",
+    "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "pluralize": "^8.0.0",
+    "sass": "^1.38.0",
+    "sass-loader": "^10.0.0",
+    "url-loader": "^4.1.1",
+    "vite": "^2.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vue-cli-plugin-vuetify-cli": "~0.2.4",
+    "vuetify-loader": "^2.0.0-alpha.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
   },
   "eslintConfig": {
     "root": true,

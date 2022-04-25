@@ -1,24 +1,18 @@
 # plant-readings
 
-## Project setup
+## Description
+A simple Vue/Python App that displays various growlab statistics from a Single-Board PC.
+
+## Vue App Installation (package.json dir)
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## To run
 ```
-npm run serve
+npm run serve 
 ```
-
-### Compiles and minifies for production
+&
 ```
-npm run build
+python /server/plant-box_flask.py
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
