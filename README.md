@@ -1,4 +1,5 @@
 # plant-readings
+[Example Image](https://github.com/stynan27/PlantReadings/blob/master/PlantReadings.png )
 
 ## Description
 A simple Vue/Python App that displays various growlab statistics from a Single-Board PC.
